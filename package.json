@@ -1,0 +1,20 @@
+{
+  "name": "emulator-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "deno run --allow-net --import-map=src/server/import_map.json src/server/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladsovetov/emulator-builder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladsovetov/emulator-builder/issues"
+  },
+  "homepage": "https://github.com/vladsovetov/emulator-builder#readme"
+}
