@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "src/client"
+	},
+	{
+		"path": "src/server"
+	}
+],
+  "settings": {}
+}
