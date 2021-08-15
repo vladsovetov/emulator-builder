@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "deno run --allow-net --import-map=src/server/import_map.json src/server/server.ts"
+    "server": "deno run --allow-net --import-map=src/server/import_map.json src/server/server.ts",
+    "start": "denon run --allow-net --unstable --import-map=src/server/import_map.json src/server/server.ts"
   },
   "repository": {
     "type": "git",
